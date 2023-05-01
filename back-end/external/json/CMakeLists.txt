@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+include(FetchContent)
+FetchContent_Declare(json_content URL https://github.com/nlohmann/json/releases/download/v3.11.2/json.tar.xz)
+FetchContent_MakeAvailable(json_content)
+add_library(json INTERFACE)
+target_include_directories(json INTERFACE ${json_content_SOURCE_DIR}/include)

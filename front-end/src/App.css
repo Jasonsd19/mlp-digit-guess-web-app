@@ -1,0 +1,191 @@
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.warning {
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+.linkContainer {
+  display: none;
+}
+
+.headerContainer {
+  display: none;
+}
+
+.neuralNetworkContainer {
+  display: none;
+}
+
+.expositionHeader {
+  display: none;
+}
+
+.exposition {
+  display: none;
+}
+
+.exposition {
+  display: none;
+}
+
+.footerContainer {
+  display: none;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+  .warning {
+    display: none;
+  }
+
+  .linkContainer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    margin: auto;
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .headerContainer {
+    display: block;
+    font-size: 30px;
+    margin: auto;
+  }
+
+  .neuralNetworkContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    margin: auto;
+  }
+
+  .smallDescriptonContainer {
+    width: 500px;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 13.5px;
+  }
+
+  .drawContainer {
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .mainCanvasContainer {
+    padding-bottom: 25px;
+  }
+
+  .drawPad {
+    background-color: white;
+    box-shadow: 0px 0px 2px 5px black;
+  }
+
+  .miniCanvasContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+  .miniDrawPad {
+    background-color: white;
+    box-shadow: 0px 0px 2px 5px black;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .submitButton {
+    background-color: white;
+    color: black;
+    width: 100px;
+    box-shadow: 0px 0px 2px 5px black;
+  }
+
+  .neuralNetworkGuessContainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .guessHeader {
+    font-size: 25px;
+    padding-bottom: 50px;
+  }
+
+  .guess {
+    font-size: 10px;
+  }
+
+  .exposition {
+    margin: auto;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-align: left;
+    display: block;
+    font-size: 20px;
+  }
+
+  .footerContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+  .smallDescriptonContainer {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .smallDescriptonContainer {
+    font-size: 17px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .neuralNetworkGuessContainer {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .smallDescriptonContainer {
+    font-size: 18px;
+    padding-right: 75px;
+    padding-left: 75px;
+  }
+
+  .neuralNetworkGuessContainer {
+    padding-right: 75px;
+    padding-left: 75px;
+  }
+}
