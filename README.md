@@ -1,4 +1,5 @@
 # mlp-digit-guess-web-app
+This repository is not meant to used for deployment or anything like that, I just wanted to have both my front-end and back-end files in one convenient place. This makes it easier for anyone interested in the code to take a look and browse the source. I do however have two separate private repositories that I use for actually deploying the full web application. Anyways, onto the write up...
 
 ## Front-End
 The front end of this web application was created using React, TypeScript, HTML, and CSS. I didn't spend too much styling or making the website completly responsive. I mainly focused on making sure that the drawing canvas was implemented really well, and that the calls to the backend POST endpoint worked as intended. It was a fun little project and I still learned a decent amount. If you want to see a better representation of my designing abilities check out my [personal website](https://www.jasondeol.com/) :grin:
